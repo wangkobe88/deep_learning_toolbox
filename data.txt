@@ -1,0 +1,7 @@
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch -f emojify_rnn/data/glove.6B.50d.txt' -- --all
+
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch -f residual_networks/datasets/ResNet50.h5' -- --all
+
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch car_detection_for_autonomous_driving/model_data/yolo.h5' -- --all
+
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch neural_style_transfer/pretrained-model/imagenet-vgg-verydeep-19.mat' -- --all
